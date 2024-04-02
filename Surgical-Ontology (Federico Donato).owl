@@ -1,0 +1,123 @@
+Prefix(:=<http://www.semanticweb.org/federico/ontologies/2024/3/untitled-ontology-37#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/federico/ontologies/2024/3/untitled-ontology-37>
+
+Declaration(Class(:AsportationMethod))
+Declaration(Class(:Binding))
+Declaration(Class(:Clamp))
+Declaration(Class(:Cleansing))
+Declaration(Class(:Cutting))
+Declaration(Class(:Forceps))
+Declaration(Class(:HygienicSolution))
+Declaration(Class(:Needle))
+Declaration(Class(:Opening))
+Declaration(Class(:PlannedProcess))
+Declaration(Class(:Removing))
+Declaration(Class(:Retractor))
+Declaration(Class(:Scalpel))
+Declaration(Class(:Scissors))
+Declaration(Class(:Sewing))
+Declaration(Class(:Soil))
+Declaration(Class(:SuperficialDiseasePhenotype))
+Declaration(Class(:SuperficialManifestationOfDisease))
+Declaration(Class(:SurgicalAgent))
+Declaration(Class(:SurgicalPatient))
+Declaration(Class(:Tongs))
+Declaration(Class(:object))
+Declaration(Class(:object_aggregate))
+Declaration(Class(:process))
+Declaration(Class(:quality))
+Declaration(Class(:role))
+Declaration(Class(:temporal_region))
+############################
+#   Classes
+############################
+
+# Class: :AsportationMethod (:AsportationMethod)
+
+SubClassOf(:AsportationMethod :PlannedProcess)
+
+# Class: :Binding (:Binding)
+
+SubClassOf(:Binding :process)
+
+# Class: :Clamp (:Clamp)
+
+SubClassOf(:Clamp :object)
+
+# Class: :Cleansing (:Cleansing)
+
+SubClassOf(:Cleansing :process)
+
+# Class: :Cutting (:Cutting)
+
+SubClassOf(:Cutting :process)
+
+# Class: :Forceps (:Forceps)
+
+SubClassOf(:Forceps :object)
+
+# Class: :HygienicSolution (:HygienicSolution)
+
+SubClassOf(:HygienicSolution :object_aggregate)
+
+# Class: :Needle (:Needle)
+
+SubClassOf(:Needle :object)
+
+# Class: :Opening (:Opening)
+
+SubClassOf(:Opening :process)
+
+# Class: :Removing (:Removing)
+
+SubClassOf(:Removing :process)
+
+# Class: :Retractor (:Retractor)
+
+SubClassOf(:Retractor :object)
+
+# Class: :Scalpel (:Scalpel)
+
+SubClassOf(:Scalpel :object)
+
+# Class: :Scissors (:Scissors)
+
+SubClassOf(:Scissors :object)
+
+# Class: :Sewing (:Sewing)
+
+SubClassOf(:Sewing :process)
+
+# Class: :Soil (:Soil)
+
+SubClassOf(:Soil :object_aggregate)
+
+# Class: :SuperficialDiseasePhenotype (:SuperficialDiseasePhenotype)
+
+SubClassOf(:SuperficialDiseasePhenotype :quality)
+
+# Class: :SuperficialManifestationOfDisease (:SuperficialManifestationOfDisease)
+
+SubClassOf(:SuperficialManifestationOfDisease :quality)
+
+# Class: :SurgicalAgent (:SurgicalAgent)
+
+SubClassOf(:SurgicalAgent :role)
+
+# Class: :SurgicalPatient (:SurgicalPatient)
+
+SubClassOf(:SurgicalPatient :role)
+
+# Class: :Tongs (:Tongs)
+
+SubClassOf(:Tongs :object)
+
+
+)
